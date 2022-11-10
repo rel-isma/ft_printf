@@ -6,7 +6,7 @@
 /*   By: rel-isma <rel-isma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 17:54:34 by rel-isma          #+#    #+#             */
-/*   Updated: 2022/11/10 20:04:03 by rel-isma         ###   ########.fr       */
+/*   Updated: 2022/11/10 20:56:14 by rel-isma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,11 +65,4 @@ int	ft_printf(const char *format, ...)
 
 	va_end(arg_ra);	
 	return (len);
-}
-int main()
-{
-	// char *p;
-	ft_printf(" %p \n", 16);
-	printf(" %p ", 16);
-	return 0;
 }

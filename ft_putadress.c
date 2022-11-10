@@ -17,7 +17,7 @@ int	ft_putadress(unsigned long long n)
 {
 	int i = 0;
 
-	if (n > 16)
+	if (n >= 16)
 	{
 		i += ft_putadress(n / 16);
 		i += ft_putadress(n % 16);

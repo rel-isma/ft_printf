@@ -6,7 +6,7 @@
 #    By: rel-isma <rel-isma@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/10 18:28:58 by rel-isma          #+#    #+#              #
-#    Updated: 2022/11/10 19:32:58 by rel-isma         ###   ########.fr        #
+#    Updated: 2022/11/10 20:56:34 by rel-isma         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = libftprintf.a
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
-AR = ar -r
+AR = ar -rc
 RM = rm -f
 
 FILE  = ft_printf.c ft_putchar.c ft_putunsigned.c ft_puthexdecimal_m.c \
