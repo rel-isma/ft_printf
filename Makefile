@@ -6,7 +6,7 @@
 #    By: rel-isma <rel-isma@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/10 18:28:58 by rel-isma          #+#    #+#              #
-#    Updated: 2022/11/10 20:56:34 by rel-isma         ###   ########.fr        #
+#    Updated: 2022/11/14 11:11:26 by rel-isma         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -38,5 +38,5 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all fclean clean re
 		

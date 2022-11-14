@@ -6,7 +6,7 @@
 /*   By: rel-isma <rel-isma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/09 17:55:24 by rel-isma          #+#    #+#             */
-/*   Updated: 2022/11/10 19:25:48 by rel-isma         ###   ########.fr       */
+/*   Updated: 2022/11/10 21:22:12 by rel-isma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,6 @@
 # define FT_PRINTF_H
 
 # include <stdarg.h>
-# include <libc.h>
 # include <unistd.h>
 
 int	ft_printf(const char *format, ...);
@@ -24,6 +23,6 @@ int	ft_putstring(char *s);
 int	ft_putunsigned(unsigned int n);
 int	ft_puthexdecimal(unsigned int n);
 int	ft_puthexdecimal_m(unsigned int n);
-int	ft_putadress(unsigned long long);
+int	ft_putadress(unsigned long long n);
 
 #endif
